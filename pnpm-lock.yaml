@@ -4,7 +4,9 @@ specifiers:
   '@babel/core': '>=7.13.0 <8.0.0'
   '@babel/preset-env': ^7.16.11
   '@babel/preset-react': ^7.16.7
+  '@testing-library/dom': '>=7.21.4'
   '@testing-library/react': ^13.0.1
+  '@testing-library/user-event': ^14.1.0
   '@types/jest': ^27.4.1
   '@types/react': ^17.0.33
   '@types/react-dom': ^17.0.10
@@ -26,7 +28,9 @@ devDependencies:
   '@babel/core': 7.17.9
   '@babel/preset-env': 7.16.11_@babel+core@7.17.9
   '@babel/preset-react': 7.16.7_@babel+core@7.17.9
+  '@testing-library/dom': 8.13.0
   '@testing-library/react': 13.0.1_react-dom@18.0.0+react@18.0.0
+  '@testing-library/user-event': 14.1.0_@testing-library+dom@8.13.0
   '@types/jest': 27.4.1
   '@types/react': 17.0.44
   '@types/react-dom': 17.0.15
@@ -1581,6 +1585,15 @@ packages:
       '@types/react-dom': 18.0.0
       react: 18.0.0
       react-dom: 18.0.0_react@18.0.0
+    dev: true
+
+  /@testing-library/user-event/14.1.0_@testing-library+dom@8.13.0:
+    resolution: {integrity: sha512-+CGfMXlVM+OwREHDEsfTGsXIMI+rjr3a7YBUSutq7soELht+8kQrM5k46xa/WLfHdtX/wqsDIleL6bi4i+xz0w==}
+    engines: {node: '>=12', npm: '>=6'}
+    peerDependencies:
+      '@testing-library/dom': '>=7.21.4'
+    dependencies:
+      '@testing-library/dom': 8.13.0
     dev: true
 
   /@tootallnate/once/1.1.2:
