@@ -18,6 +18,8 @@ For more details, read through this file.
  4. Write your app in `src/App.{tsx,jsx}`
  5. Run `npm test` to see if your solution passes the test suite
 
+ If there are any issues with the environment, you are getting errors while trying to run any of these command, please open an issue on the repository.
+
 
 ## Checklist before submitting
 
