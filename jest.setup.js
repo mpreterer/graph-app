@@ -1,3 +1,4 @@
+import 'regenerator-runtime/runtime'
 import { server } from "./src/mocks/server.js";
 
 beforeAll(() => server.listen());
