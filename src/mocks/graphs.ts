@@ -3,8 +3,12 @@ export default [
     nodes: [
       { id: 0, name: "node1" },
       { id: 1, name: "node2" },
+
     ],
-    edges: [{ fromId: 0, toId: 1 }],
+    edges: [
+      { fromId: 0, toId: 1 },
+      { fromId: 1, toId: 2 },
+    ],
   },
   {
     nodes: [
