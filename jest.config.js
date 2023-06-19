@@ -10,4 +10,12 @@ module.exports = {
       useESM: true,
     },
   },
+  moduleNameMapper: {
+    "\\.(css|less|scss|sss|styl)$": "<rootDir>/node_modules/jest-css-modules",
+  },
+  globals: {
+    "ts-jest": {
+      useESM: true,
+    },
+  },
 };

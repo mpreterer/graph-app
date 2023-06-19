@@ -1,10 +1,14 @@
-import { useState } from "react";
-import "./App.css";
+import { FC } from "react";
 
-function App() {
-  const [count, setCount] = useState(0);
+import GraphList from "./components/GraphList/GraphList";
 
-  return <div>Write your app here.</div>;
-}
+const App: FC = () => {
+  return (
+    <div className="app">
+      <h1 className="app__title">Graph Application</h1>
+      <GraphList />
+    </div>
+  );
+};
 
 export default App;
