@@ -1,5 +1,40 @@
 # DF Designer Frontend Vacancy - Coding Challenge
 
+### Unpacking
+
+Clone
+>```git clone https://github.com/mpreterer/graph-app.git```
+
+Install
+>```npm i```
+---
+
+Installing modules for express_server
+>```cd server```
+>```npm i```
+>```cd ..```
+---
+
+Start project
+>```npm run start```
+---
+
+Start production build
+>```npm run build```
+---
+
+Start client build
+>```npm run client```
+---
+
+Start server
+>```npm run server```
+---
+
+Start tests
+>```npm run test```
+---
+
 Your task will be to write a React based application, either in TypeScript or JavaScript (altough the former will be preferred). The application should:
 
 1. Fetch a list of available graphs from `/api/graphs` via a `GET` request.
